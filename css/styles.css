@@ -1,3 +1,13 @@
+.body {
+  background-color: #181818;
+  background-image: url("/images/landscape.jpg") center center no-repeat;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
 .center {
   text-align: center;
   margin-top: 25%;
