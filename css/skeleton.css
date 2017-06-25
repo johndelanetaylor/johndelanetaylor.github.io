@@ -122,15 +122,15 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 html {
-  font-size: 62.5%;
-  background-image: /images/landscape.jpg; }
+  font-size: 62.5%; }
 body {
-  background: #181818;
+  background-color: #181818;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 300;
   font-family: "Overpass", Helvetica, Arial, sans-serif;
   color: #fff;
+  background-image: url("/images/landscape.jpg");
   opacity: 0.5;
   filter: alpha(opacity=50); /* For IE8 and earlier */ }
 
